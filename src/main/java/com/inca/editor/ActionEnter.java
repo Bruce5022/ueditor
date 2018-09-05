@@ -19,7 +19,7 @@ public class ActionEnter {
 	private ConfigManager configManager = null;
 
 	public ActionEnter(HttpServletRequest request) {
-		this.request = request;
+		this.request = request; 
 		this.actionType = request.getParameter("action");
 		this.configManager = ConfigManager.getInstance();
 	}
